@@ -4,16 +4,16 @@ import logo from "../assets/Goldentail_Logistics_LLC.png";
 
 export default function Navbar() {
   return (
-    <section className="flex justify-between border border-slate-200 py-2">
+    <section className="absolute flex w-full justify-around pt-4">
       <Image
         src={logo}
         alt="Goldentail Logistics LLC Logo"
         width={250}
         height={125}
-        className="ml-5"
+        className=""
       />
 
-      <ul className="mr-5 flex items-center gap-2 text-white">
+      <ul className=" flex items-center gap-4 text-white">
         <li className="hover:text-gray-400">
           <Link href="/about">About</Link>
         </li>

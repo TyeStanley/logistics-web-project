@@ -3,9 +3,10 @@ import Hero from "../components/Hero";
 
 export default function Home() {
   return (
-    <main className="h-screen w-screen bg-gray-700">
+    <main className="h-screen w-screen">
       <Navbar />
       <Hero />
+      <div>text</div>
     </main>
   );
 }

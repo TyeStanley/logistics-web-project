@@ -13,15 +13,46 @@ export default function Navbar() {
         className=""
       />
 
-      <ul className=" flex items-center gap-4 text-white">
-        <li className="hover:text-gray-400">
-          <Link href="/about">About</Link>
+      <ul className="flex items-center gap-5 text-white">
+        <li>
+          <Link
+            href="/about"
+            className="block border-2 border-transparent p-2 transition-all hover:border-b-gray-100"
+          >
+            About
+          </Link>
         </li>
-        <li className="hover:text-gray-400">
-          <Link href="/services">Services</Link>
+        <li>
+          <Link
+            href="/services"
+            className="block border-2 border-transparent p-2 transition-all hover:border-b-gray-100"
+          >
+            Services
+          </Link>
         </li>
-        <li className="hover:text-gray-400">
-          <Link href="/contact">Contact</Link>
+        <li>
+          <Link
+            href="/career"
+            className="block border-2 border-transparent p-2 transition-all hover:border-b-gray-100"
+          >
+            Career
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="/contact"
+            className="block border-2 border-transparent p-2 transition-all hover:border-b-gray-100"
+          >
+            Contact
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="/quote"
+            className="block rounded bg-blue-700 p-2 text-gray-100 transition-all hover:scale-110"
+          >
+            Quote Now
+          </Link>
         </li>
       </ul>
     </section>

@@ -1,6 +1,3 @@
-import Image from "next/image";
-import heroImage from "../assets/heroImage.jpg";
-
 export default function Hero() {
   return (
     <section className="flex h-screen items-center justify-center bg-[url('../assets/heroImage.jpg')] bg-cover bg-center">
@@ -10,7 +7,7 @@ export default function Hero() {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt aut
           facilis commodi esse maiores voluptate laborum rerum blanditiis?
         </p>
-        <button className="mt-5 rounded bg-blue-700 p-2 text-gray-100">
+        <button className="mt-5 rounded bg-blue-700 p-2 text-gray-100 transition-all hover:scale-110">
           Quote Now
         </button>
       </div>

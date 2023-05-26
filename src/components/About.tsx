@@ -6,7 +6,7 @@ export default function About() {
       <div className="absolute left-0 right-0 mx-auto h-[200px] w-[95%] rounded-xl bg-[url('../assets/aboutImage.jpg')] bg-cover bg-center" />
 
       <div className="new-shadow relative bottom-[5%] left-[5%] h-[450px] w-[470px] rounded-xl bg-gray-100 p-5">
-        <h1 className="text-2xl font-extrabold text-gray-900">
+        <h1 className="mt-2 text-2xl font-extrabold text-gray-900">
           About Goldentail Logistics
         </h1>
         <p className="my-6 text-gray-800">

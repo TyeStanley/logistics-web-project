@@ -50,7 +50,7 @@ export default function Navbar() {
             href="/quote"
             className="block rounded bg-blue-700 p-2 text-gray-100 transition-all hover:scale-110"
           >
-            Quote Now
+            Contact Now
           </Link>
         </li>
       </ul>

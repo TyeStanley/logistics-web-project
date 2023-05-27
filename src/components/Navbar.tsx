@@ -4,7 +4,7 @@ import logo from "../assets/Goldentail_Logistics_LLC.png";
 
 export default function Navbar() {
   return (
-    <section className="fixed flex w-[calc(100%-17px)] justify-around bg-gray-800 py-3">
+    <section className="fixed z-50 flex w-[calc(100%-17px)] justify-around bg-gray-800 py-3">
       <Image
         src={logo}
         alt="Goldentail Logistics LLC Logo"
@@ -14,40 +14,40 @@ export default function Navbar() {
 
       <ul className="flex items-center gap-5 text-white">
         <li>
-          <Link
-            href="/about"
+          <a
+            href="#about"
             className="block border-2 border-transparent p-2 transition-all hover:border-b-gray-100"
           >
             About
-          </Link>
+          </a>
         </li>
         <li>
-          <Link
-            href="/services"
+          <a
+            href="#services"
             className="block border-2 border-transparent p-2 transition-all hover:border-b-gray-100"
           >
             Services
-          </Link>
+          </a>
         </li>
         <li>
-          <Link
-            href="/career"
+          <a
+            href="#career"
             className="block border-2 border-transparent p-2 transition-all hover:border-b-gray-100"
           >
             Career
-          </Link>
+          </a>
+        </li>
+        <li>
+          <a
+            href="#contact"
+            className="block border-2 border-transparent p-2 transition-all hover:border-b-gray-100"
+          >
+            Contact
+          </a>
         </li>
         <li>
           <Link
             href="/contact"
-            className="block border-2 border-transparent p-2 transition-all hover:border-b-gray-100"
-          >
-            Contact
-          </Link>
-        </li>
-        <li>
-          <Link
-            href="/quote"
             className="block rounded bg-blue-700 p-2 text-gray-100 transition-all hover:scale-110"
           >
             Contact Now

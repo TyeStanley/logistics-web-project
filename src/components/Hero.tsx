@@ -1,14 +1,14 @@
 export default function Hero() {
   return (
-    <section className="flex h-screen items-center justify-center bg-[url('../assets/heroImage.jpg')] bg-cover bg-center">
+    <section className="flex h-[calc(100vh-5%)] items-center justify-center bg-[url('../assets/heroImage.jpg')] bg-cover bg-center">
       <div className="flex w-[500px] flex-col items-center justify-center rounded-xl bg-gray-100/90 p-8 shadow-lg shadow-gray-300">
-        <h1 className="text-center text-3xl font-extrabold text-gray-900">
+        <h1 className="text-center text-3xl font-extrabold text-gray-800">
           GoldenTail Logistics
         </h1>
-        <p className="mt-3 text-center font-semibold">
+        <p className="mt-3 text-center font-semibold text-gray-700">
           Your Trusted Partner in Efficient Supply Chain Solutions
         </p>
-        <p className="mt-3 text-center text-sm text-gray-800">
+        <p className="mt-3 text-center text-sm text-gray-600">
           At GoldenTail Logistics, we empower your business with seamless supply
           chain solutions. From transportation services to warehousing
           solutions, we optimize your operations for growth. Trust GoldenTail

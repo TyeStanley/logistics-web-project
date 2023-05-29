@@ -1,32 +1,32 @@
 [
   {
-    "image": "",
+    "image": "icon-package.svg",
     "title": "Packaging",
-    "content": "content1"
+    "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt rerum non reprehenderit, sint iure quam pariatur porro quidem distinctio impedit qui, sunt maxime, in exercitationem tempore. Sapiente facere eum voluptatem."
   },
   {
-    "image": "",
+    "image": "icon-survey.svg",
     "title": "Inventory",
-    "content": "content1"
+    "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt rerum non reprehenderit, sint iure quam pariatur porro quidem distinctio impedit qui, sunt maxime, in exercitationem tempore. Sapiente facere eum voluptatem."
   },
   {
-    "image": "",
+    "image": "icon-deliver.svg",
     "title": "Transport",
-    "content": "content1"
+    "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt rerum non reprehenderit, sint iure quam pariatur porro quidem distinctio impedit qui, sunt maxime, in exercitationem tempore. Sapiente facere eum voluptatem."
   },
   {
-    "image": "",
+    "image": "icon-information.svg",
     "title": "Information",
-    "content": "content1"
+    "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt rerum non reprehenderit, sint iure quam pariatur porro quidem distinctio impedit qui, sunt maxime, in exercitationem tempore. Sapiente facere eum voluptatem."
   },
   {
-    "image": "",
+    "image": "icon-store.svg",
     "title": "Warehousing",
-    "content": "content1"
+    "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt rerum non reprehenderit, sint iure quam pariatur porro quidem distinctio impedit qui, sunt maxime, in exercitationem tempore. Sapiente facere eum voluptatem."
   },
   {
-    "image": "",
+    "image": "icon-currency-dollar.svg",
     "title": "Pricing",
-    "content": "content1"
+    "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt rerum non reprehenderit, sint iure quam pariatur porro quidem distinctio impedit qui, sunt maxime, in exercitationem tempore. Sapiente facere eum voluptatem."
   }
 ]

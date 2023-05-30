@@ -1,14 +1,12 @@
-import React from "react";
-
 export default function About() {
   return (
     <section
       id="about"
       className="relative h-[700px] pt-[150px]"
     >
-      <div className="absolute left-0 right-0 mx-auto h-[200px] w-[95%] rounded-xl bg-[url('../assets/aboutImage.jpg')] bg-cover bg-center" />
+      <div className="absolute left-0 right-0 mx-auto h-[425px] w-[90%] rounded-xl bg-[url('../assets/aboutImage.jpg')] bg-cover bg-center" />
 
-      <div className="new-shadow relative bottom-[5%] left-[5%] w-[470px] rounded-xl bg-gray-100 p-5">
+      <div className="new-shadow relative bottom-[10%] left-[10%] w-[470px] rounded-xl bg-gray-100 p-5">
         <h1 className="text-2xl font-extrabold text-gray-800">
           Your Ideal Logistics Partner
         </h1>

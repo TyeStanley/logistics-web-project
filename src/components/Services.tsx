@@ -16,21 +16,20 @@ export default function Services() {
       <h1 className="text-center text-3xl font-bold text-gray-800">
         Logistic Services
       </h1>
-      <div className="mt-[50px] grid grid-cols-3 gap-4">
+      <div className="mx-auto mt-[50px] flex max-w-[1400px] flex-wrap justify-center gap-4">
         {servicesJson.map(({ image, title, content }: serviceType) => (
           <div
             key={title}
-            className="new-shadow flex flex-col items-center justify-self-center rounded bg-gray-100 p-5"
+            className="new-shadow flex max-w-[350px] flex-col items-center rounded-xl bg-gray-100 p-5"
           >
             <Image
               src={`/svg-icons/${image}`}
               alt={title}
               width={150}
               height={150}
-              className=""
             />
             <h2 className="text-xl font-bold text-gray-800">{title}</h2>
-            <p className="text-gray-700">{content}</p>
+            <p className="mt-5 text-gray-700">{content}</p>
           </div>
         ))}
       </div>

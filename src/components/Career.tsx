@@ -28,7 +28,7 @@ export default function Career() {
           enhance your skills and advance your career.
         </p>
         <button className="mt-4 rounded bg-blue-700 p-2 text-gray-100 transition-all hover:scale-110">
-          Contact Us
+          Join Us
         </button>
       </div>
     </section>

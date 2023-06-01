@@ -4,6 +4,7 @@ import About from "../components/About";
 import Services from "../components/Services";
 import Career from "../components/Career";
 import ContactForm from "../components/ContactForm";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
       <Services />
       <Career />
       <ContactForm />
-      <div className="h-[500px] w-full" />
+      <Footer />
     </main>
   );
 }

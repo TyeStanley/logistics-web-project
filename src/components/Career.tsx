@@ -2,7 +2,7 @@ export default function Career() {
   return (
     <section
       id="career"
-      className="relative h-[700px] pt-[200px]"
+      className="relative mt-[150px] h-[500px]"
     >
       <div className="absolute left-0 right-0 mx-auto h-[425px] w-[90%] rounded-xl bg-[url('../assets/notepaper.jpg')] bg-cover bg-center" />
 

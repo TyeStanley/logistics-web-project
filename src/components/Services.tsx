@@ -11,7 +11,7 @@ export default function Services() {
   return (
     <section
       id="services"
-      className="w-full pt-[100px]"
+      className="mt-[150px] w-full"
     >
       <h1 className="text-center text-3xl font-bold text-gray-800">
         Logistic Services

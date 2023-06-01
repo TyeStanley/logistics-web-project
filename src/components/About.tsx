@@ -2,7 +2,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="relative h-[700px] pt-[150px]"
+      className="relative mt-[150px] h-[500px]"
     >
       <div className="absolute left-0 right-0 mx-auto h-[425px] w-[90%] rounded-xl bg-[url('../assets/aboutImage.jpg')] bg-cover bg-center" />
 

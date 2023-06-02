@@ -28,7 +28,7 @@ export default function Navbar() {
       />
 
       {/* mobile nav modal */}
-      {isOpen && <NavModal />}
+      {isOpen && <NavModal toggleMenu={toggleMenu} />}
 
       {/* mobile nav */}
       <div

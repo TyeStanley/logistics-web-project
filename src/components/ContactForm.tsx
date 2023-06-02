@@ -31,7 +31,10 @@ export default function ContactForm() {
   };
 
   return (
-    <section className="mt-[150px]">
+    <section
+      id="contact"
+      className="mt-[150px]"
+    >
       <h2 className="mb-5 text-center text-3xl font-semibold text-gray-800">
         Contact Us
       </h2>

@@ -3,13 +3,13 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import logo from "../assets/Goldentail_Logistics_LLC.png";
+import NavModal from "./NavModal";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
-    console.log(isOpen);
 
     document.getElementById("top-bar")!.classList.toggle("opacity-0");
     document.getElementById("middle-bar")!.classList.toggle("rotate-45");
@@ -18,18 +18,22 @@ export default function Navbar() {
   };
 
   return (
-    <section className="fixed z-50 flex w-full justify-between bg-gray-800 px-3 py-3 lg:w-[calc(100%-17px)] lg:justify-around">
+    <section className="fixed z-50 flex w-full justify-between bg-gray-800 lg:w-[calc(100%-17px)] lg:justify-around">
       <Image
         src={logo}
         alt="Goldentail Logistics LLC Logo"
         width={250}
         height={125}
+        className="p-3"
       />
+
+      {/* mobile nav modal */}
+      {isOpen && <NavModal />}
 
       {/* mobile nav */}
       <div
         onClick={toggleMenu}
-        className="my-auto flex h-[30px] flex-col justify-between lg:hidden"
+        className="my-auto mr-3 flex h-[30px] flex-col justify-between lg:hidden"
       >
         <div
           id="top-bar"
@@ -88,7 +92,7 @@ export default function Navbar() {
             href="/contact"
             className="block rounded bg-blue-700 p-2 text-gray-100 transition-all hover:scale-110"
           >
-            Contact Now
+            Quote Now
           </Link>
         </li>
       </ul>

@@ -4,9 +4,9 @@ interface NavModalProps {
 
 export default function NavModal({ toggleMenu }: NavModalProps) {
   return (
-    <section className="absolute h-screen w-screen bg-gray-500/80">
+    <section className="absolute h-screen w-screen bg-gray-900">
       <div className="flex h-full flex-col items-center justify-center">
-        <ul className="flex flex-col items-center justify-center gap-5 text-white">
+        <ul className="flex flex-col items-center justify-center gap-5 text-xl text-gray-50">
           <li>
             <a
               href="#about"

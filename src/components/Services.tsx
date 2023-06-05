@@ -20,7 +20,7 @@ export default function Services() {
         {servicesJson.map(({ image, title, content }: serviceType) => (
           <div
             key={title}
-            className="new-shadow flex max-w-[350px] flex-col items-center rounded-xl bg-gray-100 p-5"
+            className="new-shadow flex w-[95%] flex-col items-center rounded-xl bg-gray-100 p-5 sm:max-w-[310px] md:max-w-[350px]"
           >
             <Image
               src={`/svg-icons/${image}`}

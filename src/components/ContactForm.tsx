@@ -41,7 +41,7 @@ export default function ContactForm() {
 
       <form
         onSubmit={handleSubmit}
-        className="new-shadow mx-auto w-[500px] rounded-xl bg-gray-100 p-5"
+        className="new-shadow mx-auto w-[95%] rounded-xl bg-gray-100 p-5 sm:w-[500px]"
       >
         {/* Name */}
         <div className="mb-5">

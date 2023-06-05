@@ -7,7 +7,7 @@ export default function About() {
       <div className="absolute left-0 right-0 mx-auto h-[425px] w-[90%] rounded-xl bg-[url('../assets/aboutImage.jpg')] bg-cover bg-center" />
 
       <div className="new-shadow relative bottom-[10%] left-[10%] w-[80%] rounded-xl bg-gray-100 p-5 md:w-[470px]">
-        <h1 className="text-2xl font-extrabold text-gray-800">
+        <h1 className="text-lg font-extrabold text-gray-800 md:text-2xl">
           Your Ideal Logistics Partner
         </h1>
         <p className="mt-4 text-sm text-gray-700 md:text-base">

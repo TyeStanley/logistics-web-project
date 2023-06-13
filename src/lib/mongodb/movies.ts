@@ -1,4 +1,4 @@
-import clientPromise from "./connection.js";
+import clientPromise from "@lib/mongodb/connection";
 
 let client: any;
 let db: any;
@@ -8,7 +8,7 @@ async function init() {
   if (db) return;
   try {
     client = await clientPromise;
-    db = await client.db("sample_mflix");
+    db = client.db("sample_mflix");
     movies = await db.collection("movies");
   } catch (error) {
     console.log(error);
@@ -23,8 +23,8 @@ async function init() {
 export async function getMovies() {
   try {
     if (!movies) await init();
-    const result = await movies;
-    result
+
+    const result = await movies
       .find({})
       .limit(5)
       .map((user: any) => ({ ...user, _id: user._id.toString() }))

@@ -1,5 +1,5 @@
-import servicesJson from "../assets/json/services.json";
 import Image from "next/image";
+import servicesJson from "@assets/json/services.json";
 
 interface serviceType {
   image: string;

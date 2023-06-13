@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../assets/Goldentail_Logistics_LLC.png";
+import logo from "@assets/Goldentail_Logistics_LLC.png";
 
 export default function Footer() {
   return (
